@@ -1,5 +1,20 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
 
-.box{
-  background-color: aqua;
-}
+
+.efecct_maquina {
+    display: block;
+    font-size: 24px ;
+    font-family: monospace;
+    white-space: nowrap;
+    border-right: 4px solid ;
+    width: 22ch; 
+    animation: typing 2s steps(16) , blink .5s infinite step-end alternate;
+    overflow: hidden;
+  }
+  
+  @keyframes  typing {
+    from { width: 0}
+  }
+  @keyframes blink {
+  50% {border-color: transparent;}
+  }

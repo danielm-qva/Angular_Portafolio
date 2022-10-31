@@ -1,0 +1,25 @@
+<div class="container overflow-hidden">
+    <h1 class="text-center">My Proyect...</h1>
+      <div class="row gx-5" >
+          <div class="col mt-4 mb-4" *ngFor="let item of work ">
+            <div class="card" style="width: 18rem;">
+                   <div class="text-center mt-2">
+                     <i [class]=item.icono1></i>
+                     +
+                     <i [class]=item.icono2></i>
+                    </div>
+            
+              <div class="card-body">
+                <h5 class="card-title">{{item.title}}</h5>
+                <p class="card-text">{{item.description}}</p>
+                <a [href]=item.url_repo class="card-link">Link repo</a>
+              </div>
+         
+            </div>
+            </div>
+      </div>
+
+      <p class="font-monospace">He trabajado con mas tecnologias... para ver mas info por favor viste mi Linkenlind a traves del icono .. Graciass</p>
+  </div>
+
+  
